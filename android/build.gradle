@@ -30,7 +30,7 @@ kotlinOptions {
     }
 android {
     namespace 'vn.casperpas.sound_stream'
-    compileSdk = '34'
+    compileSdk = 34
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
