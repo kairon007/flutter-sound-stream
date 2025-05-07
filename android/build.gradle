@@ -25,7 +25,9 @@ rootProject.allprojects {
         mavenCentral()
     }
 }
-
+kotlinOptions {
+        jvmTarget = "1.8"
+    }
 android {
     namespace 'vn.casperpas.sound_stream'
 
